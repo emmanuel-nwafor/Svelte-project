@@ -1,9 +1,9 @@
 <script>
-  import Car from "./lib/Car.svelte";
-  import Counter from "./lib/Counter.svelte";
+  import Router from "svelte-spa-router";
+  import routes from "./routes";
+  import RenderHome from "./home/RenderHome.svelte";
 </script>
 
-<main>
-  <Counter />
-  <Car />
-</main>
+<nav>
+  <RenderHome />
+</nav>

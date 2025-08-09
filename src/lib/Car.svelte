@@ -1,9 +1,15 @@
 <script lang="js">
-    const cars = ['Lexus', 'Audi', 'Lamboghini', 'Pegeout', 'Bughatti']
+    const cars = [
+        'Lexus', 
+        'Audi', 
+        'Lamboghini', 
+        'Pegeout', 
+        'Bughatti'
+    ]
 </script>
 
 <main>
-    Emmanuel has a {cars}
+    Emmanuel has variaties of {cars}
 </main>
 
 <style>
